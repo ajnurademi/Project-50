@@ -1,10 +1,29 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  // NOTE: Update this to include the paths to all of your component files.
-  content: ["./app/**/*.{js,jsx,ts,tsx}"],
+  content: ["./app/**/*.{js,jsx,ts,tsx}", "./components/**/*.{js,jsx,ts,tsx}"],
   presets: [require("nativewind/preset")],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sofachrome: ["Sofachrome", "sans-serif"],
+        montserrat: [
+          "Montserrat-ExtraBold",
+          "Montserrat-BoldItalic",
+          "Montserrat-SemiBold",
+          "sans-serif",
+        ],
+        poppins: [
+          "Poppins-Regular",
+          "Poppins-Medium",
+          "Poppins-SemiBold",
+          "sans-serif",
+        ],
+      },
+      colors: {
+        black: "#000000",
+        white: "#FFFFFF",
+      },
+    },
   },
   plugins: [],
-}
+};

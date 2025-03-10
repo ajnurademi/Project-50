@@ -3,15 +3,9 @@ import { Text, View } from "react-native";
 
 export default function Index() {
   return (
-    <View
-      style={{
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
-      <Text>Welcome to P50</Text>
-      <Link href="/profile">Profile</Link>
+    <View>
+      <Text className="text-black font-sofachrome">Welcome to P50</Text>
+      <Text className="text-black font-montserrat ">Welcome to P50</Text>
     </View>
   );
 }
