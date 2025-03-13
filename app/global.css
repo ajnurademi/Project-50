@@ -2,3 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  /* Ensures all <Text> elements have white text */
+  text {
+    @apply text-white;
+  }
+}

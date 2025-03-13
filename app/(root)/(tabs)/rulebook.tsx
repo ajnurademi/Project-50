@@ -1,12 +1,12 @@
-import { View, Text } from 'react-native'
-import React from 'react'
+import { View, Text } from "react-native";
+import React from "react";
 
 const Rulebook = () => {
   return (
-    <View>
-      <Text>Rulebook</Text>
+    <View className="flex-1 bg-black">
+      <Text className="text-white">Rulebook</Text>
     </View>
-  )
-}
+  );
+};
 
-export default Rulebook
+export default Rulebook;

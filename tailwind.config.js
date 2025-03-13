@@ -6,21 +6,18 @@ module.exports = {
     extend: {
       fontFamily: {
         sofachrome: ["Sofachrome", "sans-serif"],
-        montserrat: [
-          "Montserrat-ExtraBold",
-          "Montserrat-BoldItalic",
-          "Montserrat-SemiBold",
-          "sans-serif",
-        ],
-        poppins: [
-          "Poppins-Regular",
-          "Poppins-Medium",
-          "Poppins-SemiBold",
-          "sans-serif",
-        ],
+        montserrat: ["Montserrat-ExtraBold", "sans-serif"],
+        "montserrat-extrabold": ["Montserrat-ExtraBold", "sans-serif"],
+        "montserrat-bolditalic": ["Montserrat-BoldItalic", "sans-serif"],
+        "montserrat-semibold": ["Montserrat-SemiBold", "sans-serif"],
+        poppins: ["Poppins-Regular", "sans-serif"],
+        "poppins-regular": ["Poppins-Regular", "sans-serif"],
+        "poppins-medium": ["Poppins-Medium", "sans-serif"],
+        "poppins-semibold": ["Poppins-SemiBold", "sans-serif"],
       },
       colors: {
         black: "#000000",
+        beige: "#EFEFE5",
         white: "#FFFFFF",
       },
     },
