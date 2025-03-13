@@ -5,6 +5,7 @@
   import email from "@/assets/icons/email.svg";
   import arrow_back from "@/assets/icons/arrow_back.svg";
   import show_pw from "@/assets/icons/show_pw.svg";
+  import show_pw_off from "@/assets/icons/show_pw_off.svg";
   import user from "@/assets/icons/user.svg";
 
   export default {
@@ -16,4 +17,5 @@
     arrow_back,
     show_pw,
     user,
+    show_pw_off,
   };
